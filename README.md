@@ -1,4 +1,4 @@
-![Scan2024-04-07_172541_000](https://github.com/COMP2150-24s1/level-design-assessment-Matthematicals/assets/126547783/2ef87990-7357-4746-99f5-b02c153cf9dd)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
 ### Name: Matthew Ho
 ### Student number: 47729686 
@@ -19,16 +19,21 @@ Example:
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+Throughout the level, the player unlocks new areas through exploration and new abilities. On a first playthrough of a section, the player may note areas that are not accessible to them and after unlocking the associated abilities (that allow them to 'unlock' previously locked spaces which will reward the player as well as being able to immediately test and experiment with what they have been given to reinforce how the ability can be used. This follows good design practice as the level is not overloaded with difficult platforming and has isolated elements that teach the player how to move through and interact with the level in a safe environment before challenging them with harder elements. E.g. section 1 introduces the basics that are used in the rest of the sections (spikes, moving platforms, and acid). The isolated elements that allow the player to learn what they can do is shown below:
+![section 1](DocImages/Scan2024-04-07_172541_001.png)
 
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+In the level, the player is introduced to more challenging platforming scenarios within each section of increasing difficulty. Within section 1, the player is able to freely test and experiment with the moving platform mechanics before they reach section 2 where their abilities are tested (mainly the ascending platform where the player must move around to avoid taking damage from the spikes). This culminates in section 3 where the player's abilities and experience is tested and the player must put what they've learned into practice by moving around a moving platform and avoiding damage from the enemies or by falling into the pit of acid.
+![](DocImages//.png)
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+To facilitate exploration in my level design, I opted to build the level around the style of the metroidvania genre. This means that the player must backtrack through section 1 of the level with their new abilities to unlock the next section. Autonomy is given to the player as there are multiple ways to get to the destination they have set. For example, after completing section 2 and receiving the staff weapon, they are able to break the destructible walls and unlock new paths such as the space with the key. They can then either backtrack through the way that they came, or can use the shortcut (with enemies) to make moving through the level easier and not annoying. This is shown in the following image:
+![](DocImages/playerpathsection2.png)
+
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -67,11 +72,11 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
-(DocImages/<Scan2024-04-07_172541_001>)
+![section 1](DocImages/playerpathsection1.png)
 ### 3.3.	Level Map – Section 2
-(DocImages/<Scan2024-04-07_201641>)
+![](DocImages/playerpathsection2.png)
 ### 3.4.	Level Map – Section 3
-(DocImages/<Scan2024-04-07_172541_000>)
+![](DocImages/playerpathsection3.png)
 ## 4. Iterative Design (~400 words)
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
@@ -79,22 +84,9 @@ You should conclude by highlighting a specific example of an encounter, or anoth
 
 ## Generative AI Use Acknowledgement
 
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
+### Tool Used: None
+**Nature of Use** 
+**Evidence Attached?** 
 
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
+**Additional Notes:**
 
