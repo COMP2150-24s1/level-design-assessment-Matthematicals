@@ -42,33 +42,31 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Spikes
 
-### 2.2. Checkpoints
+### 2.2. Moving Platforms
 
-### 2.3. Chompers
+### 2.3. Acid
 
-### 2.4. Health Pickups
+### 2.4. Checkpoints
 
-### 2.5. Keys
+### 2.5. Passthrough Platforms
 
-### 2.6. Moving Platforms
+### 2.6. Chompers
 
-### 2.7. Passthrough Platforms
+### 2.7. Weapon Pickup (Staff)
 
-### 2.8. Spikes
+### 2.8. Health Pickups
 
 ### 2.9. Spitters
 
-### 2.10. Weapon Pickup (Gun)
+### 2.10. Keys
 
-### 2.11. Weapon Pickup (Staff)
+### 2.11. Weapon Pickup (Gun)
+
+
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
@@ -77,10 +75,14 @@ No additional words are necessary for this section (any words should only be wit
 ![](DocImages/playerpathsection2.png)
 ### 3.4.	Level Map – Section 3
 ![](DocImages/playerpathsection3.png)
-## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+
+## 4. Iterative Design (~400 words)
+After completing the final design of the level, there are many elements changed between the initial design for the level and the finished version. For example, in the paper prototype for section 1 (as shown below) gameplay elements were introduced too fast for the player to understand what each specific element did and required a restructuring of the entire section as the level may have been too difficult.  
+![section 1](DocImages/section1iterative.png)
+Additionally, sections 2 and 3 required tweaking after playtesting some portions of the level felt unfair to the player such as the spike hitbox being too strict and damaging the player without them noticing as the spike's default hitbox included all of the spike which is hard to see. This was improved by tweaking the hitbox size to only include the main spike portion so the level is more forgiving. Another example of iterative design is when one of the enemies would target the player from offscreen and potentially knock them off the platform and lose a chunk of progress. This was then altered into a spot that is visible to the player while still maintaining the difficulty for the portion of the level (seen in the level map for section 3, near the 2nd moving platform). An issue found within section 3 is the method the player takes to make their way back to section 1 (where the end level door is located) where the player may have become lost after receiving the 2nd key. This was then improved through modifying the background tilemap to show arrow for the player to follow which provided a shortcut rather than requiring the player to backtrack through the completed platforming section where a fall into the pit of acid required the player to finish the platforming section and pick up the key again to then potentially fall back into the acid pool while backtracking.
+For future improvements to the level design, portions of the level may benefit from negative space to increase the difficulty of the level as well as fit the theme of the level (exploring a cave) or more puzzle elements using the player's abilities to emphasise how the ability can be used or to provide additional ways to use them.
+
 
 ## Generative AI Use Acknowledgement
 
