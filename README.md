@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
+![Scan2024-04-07_172541_000](https://github.com/COMP2150-24s1/level-design-assessment-Matthematicals/assets/126547783/2ef87990-7357-4746-99f5-b02c153cf9dd)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
 ### Name: Matthew Ho
 ### Student number: 47729686 
@@ -67,11 +67,11 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
-
+(DocImages/<Scan2024-04-07_172541_001>)
 ### 3.3.	Level Map – Section 2
-
+(DocImages/<Scan2024-04-07_201641>)
 ### 3.4.	Level Map – Section 3
-
+(DocImages/<Scan2024-04-07_172541_000>)
 ## 4. Iterative Design (~400 words)
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
